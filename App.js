@@ -20,6 +20,8 @@ const App: () => Node = () => {
   const [useGaso, setGaso] = useState();
   const [useResult, setResult] = useState(null);
 
+  //isso é um teste
+
   const handleCalculate = () => {
     const alcool = parseFloat(useAlcool.replace('R$', '').replace(',', '.'));
     const gaso = parseFloat(useGaso.replace('R$', '').replace(',', '.'));
